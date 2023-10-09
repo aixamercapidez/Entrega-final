@@ -1,3 +1,17 @@
+//session
+### POST 
+POST http://localhost:8080/api/session/login
+Content-Type: application/json
+
+{
+    "email": "aixamercapidez6450@gmail.com",
+    "password":"123"
+
+    
+}
+### GET
+GET http://localhost:8080/api/session/logout
+
 // productos
 
 ### GET 
@@ -9,12 +23,12 @@ POST http://localhost:8080/api/products/
 Content-Type: application/json
 
 {
-    "title": "Producto 7",
+    "title": "Producto 12",
     "description": "descripción 2",
     "thumbnail": "",
     "price": 500,
     "stock": 100,
-    "code": "00019",
+    "code": "00012",
     "category": "clothe",
     "status":"true"
 }
@@ -66,17 +80,7 @@ POST http://localhost:8080/api/carts/64c687c733781a6af89df61a/purchase
 
 
 
-//session
-### POST 
-POST http://localhost:8080/api/session/login
-Content-Type: application/json
 
-{
-    "email": "aixamercapidez6450@gmail.com",
-    "password":"123"
-
-    
-}
 
 
 // mensajes
@@ -96,4 +100,4 @@ Content-Type: application/json
 //users
 
 ### DELEtE
-DELETE http://localhost:8080/api/users/delete
+DELETE http://localhost:8080/api/users/deleteusers
